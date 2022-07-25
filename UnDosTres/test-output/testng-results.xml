@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[*****1.Launch the browser*****]]>
+    </line>
+    <line>
+      <![CDATA[Opening Browser]]>
+    </line>
+    <line>
+      <![CDATA[*****2.Enter the url*****]]>
+    </line>
+    <line>
+      <![CDATA[*****3.Enter mobile number*****]]>
+    </line>
+    <line>
+      <![CDATA[*****4.Select the Operator *****]]>
+    </line>
+    <line>
+      <![CDATA[*****5.Select Recharge amount*****]]>
+    </line>
+    <line>
+      <![CDATA[*****6.Click Pay Button*****]]>
+    </line>
+    <line>
+      <![CDATA[*****7.Verify if the user is able to reach the next screen(Payment screen)*****]]>
+    </line>
+    <line>
+      <![CDATA[*****8.On payment screen click on Tarjeta*****]]>
+    </line>
+    <line>
+      <![CDATA[*****9.Click Usar nueva tarjeta radio button*****]]>
+    </line>
+    <line>
+      <![CDATA[*****10.Enter card number*****]]>
+    </line>
+    <line>
+      <![CDATA[*****11.Enter Month*****]]>
+    </line>
+    <line>
+      <![CDATA[*****12.Enter Date*****]]>
+    </line>
+    <line>
+      <![CDATA[*****13.Enter CVV*****]]>
+    </line>
+    <line>
+      <![CDATA[*****14.Enter  email id under correo electronico*****]]>
+    </line>
+    <line>
+      <![CDATA[*****15.Click on Pagar con Tarjeta to do the recharge*****]]>
+    </line>
+    <line>
+      <![CDATA[*****16.Inside popup enter email*****]]>
+    </line>
+    <line>
+      <![CDATA[*****17.Inside popup enter password *****]]>
+    </line>
+    <line>
+      <![CDATA[*****18.Automate click on I'm not a robot Google captcha*****]]>
+    </line>
+    <line>
+      <![CDATA[*****19.Click Login to proceed payment*****]]>
+    </line>
+    <line>
+      <![CDATA[*****20.Confirmation popup Handling for selecting another account*****]]>
+    </line>
+    <line>
+      <![CDATA[*****21.Select alternative account for proceeding payment*****]]>
+    </line>
+    <line>
+      <![CDATA[*****22.Click payment button for confirmation*****]]>
+    </line>
+    <line>
+      <![CDATA[*****23.Handling popup*****]]>
+    </line>
+    <line>
+      <![CDATA[*****24.Verification of success screen is navigated *****]]>
+    </line>
+    <line>
+      <![CDATA[*****25.Verify if the user gets a success message and recharge gets successful*****]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-25T05:47:20 IST" name="Default suite" finished-at="2022-07-25T05:47:47 IST" duration-ms="27181">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T05:47:20 IST" name="Default test" finished-at="2022-07-25T05:47:47 IST" duration-ms="27181">
+      <class name="testscript.ExecuteLeadTest">
+        <test-method signature="LeadTest()[pri:0, instance:testscript.ExecuteLeadTest@702b8b12]" started-at="2022-07-25T05:47:20 IST" name="LeadTest" finished-at="2022-07-25T05:47:47 IST" duration-ms="27143" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*****1.Launch the browser*****]]>
+            </line>
+            <line>
+              <![CDATA[Opening Browser]]>
+            </line>
+            <line>
+              <![CDATA[*****2.Enter the url*****]]>
+            </line>
+            <line>
+              <![CDATA[*****3.Enter mobile number*****]]>
+            </line>
+            <line>
+              <![CDATA[*****4.Select the Operator *****]]>
+            </line>
+            <line>
+              <![CDATA[*****5.Select Recharge amount*****]]>
+            </line>
+            <line>
+              <![CDATA[*****6.Click Pay Button*****]]>
+            </line>
+            <line>
+              <![CDATA[*****7.Verify if the user is able to reach the next screen(Payment screen)*****]]>
+            </line>
+            <line>
+              <![CDATA[*****8.On payment screen click on Tarjeta*****]]>
+            </line>
+            <line>
+              <![CDATA[*****9.Click Usar nueva tarjeta radio button*****]]>
+            </line>
+            <line>
+              <![CDATA[*****10.Enter card number*****]]>
+            </line>
+            <line>
+              <![CDATA[*****11.Enter Month*****]]>
+            </line>
+            <line>
+              <![CDATA[*****12.Enter Date*****]]>
+            </line>
+            <line>
+              <![CDATA[*****13.Enter CVV*****]]>
+            </line>
+            <line>
+              <![CDATA[*****14.Enter  email id under correo electronico*****]]>
+            </line>
+            <line>
+              <![CDATA[*****15.Click on Pagar con Tarjeta to do the recharge*****]]>
+            </line>
+            <line>
+              <![CDATA[*****16.Inside popup enter email*****]]>
+            </line>
+            <line>
+              <![CDATA[*****17.Inside popup enter password *****]]>
+            </line>
+            <line>
+              <![CDATA[*****18.Automate click on I'm not a robot Google captcha*****]]>
+            </line>
+            <line>
+              <![CDATA[*****19.Click Login to proceed payment*****]]>
+            </line>
+            <line>
+              <![CDATA[*****20.Confirmation popup Handling for selecting another account*****]]>
+            </line>
+            <line>
+              <![CDATA[*****21.Select alternative account for proceeding payment*****]]>
+            </line>
+            <line>
+              <![CDATA[*****22.Click payment button for confirmation*****]]>
+            </line>
+            <line>
+              <![CDATA[*****23.Handling popup*****]]>
+            </line>
+            <line>
+              <![CDATA[*****24.Verification of success screen is navigated *****]]>
+            </line>
+            <line>
+              <![CDATA[*****25.Verify if the user gets a success message and recharge gets successful*****]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LeadTest -->
+      </class> <!-- testscript.ExecuteLeadTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

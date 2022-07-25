@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 25 05:47:20 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>27 seconds (27181 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscript.ExecuteLeadTest.LeadTest()'><b>LeadTest</b><br>Test class: testscript.ExecuteLeadTest<br/>
+<a href="#Output-1264674474" onClick='toggleBox("Output-1264674474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1264674474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1264674474">
+*****1.Launch the browser*****<br/>
+Opening Browser<br/>
+*****2.Enter the url*****<br/>
+*****3.Enter mobile number*****<br/>
+*****4.Select the Operator *****<br/>
+*****5.Select Recharge amount*****<br/>
+*****6.Click Pay Button*****<br/>
+*****7.Verify if the user is able to reach the next screen(Payment screen)*****<br/>
+*****8.On payment screen click on Tarjeta*****<br/>
+*****9.Click Usar nueva tarjeta radio button*****<br/>
+*****10.Enter card number*****<br/>
+*****11.Enter Month*****<br/>
+*****12.Enter Date*****<br/>
+*****13.Enter CVV*****<br/>
+*****14.Enter  email id under correo electronico*****<br/>
+*****15.Click on Pagar con Tarjeta to do the recharge*****<br/>
+*****16.Inside popup enter email*****<br/>
+*****17.Inside popup enter password *****<br/>
+*****18.Automate click on I'm not a robot Google captcha*****<br/>
+*****19.Click Login to proceed payment*****<br/>
+*****20.Confirmation popup Handling for selecting another account*****<br/>
+*****21.Select alternative account for proceeding payment*****<br/>
+*****22.Click payment button for confirmation*****<br/>
+*****23.Handling popup*****<br/>
+*****24.Verification of success screen is navigated *****<br/>
+*****25.Verify if the user gets a success message and recharge gets successful*****<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>testscript.ExecuteLeadTest@702b8b12</td></tr>
+</table><p>
+</body>
+</html>
